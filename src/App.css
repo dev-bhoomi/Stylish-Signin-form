@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(rgb(0, 0, 0.3),rgba(0,0,0,0.4)),url('images/3.avif');
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* overflow: hidden; */
+
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .row{
+  border-radius: 20px;
+}
+
+form{
+  width: 70%;
+  max-width: 600px;
+  position: relative;
+}
+.input-group{
+  margin-bottom: 30px;
+}
+
+input{
+  min-width: 100%;
+  padding: 4.5px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+input:hover{
+  box-shadow: 0 0 35px #1e9bff;
+  color: #1e9bff;
+}
+  
+input:focus {
+ background-color: transparent;
+}
+  
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 4.5px;
+  cursor: text;
+  font-size: 13px;
+  transition: 0.4s;
+}
+
+button{
+  padding: 10px 0;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+}
+.main{
+  display: flex;
+  align-items: center;
+  }
+.icon{
+  margin-right: 10px;
+  margin-bottom: 13px;
+  font-size: 24px;
+}
+
+input:focus~label,
+input:valid~label{
+  top:-35px;
+  font-size: 14px;
+}
+
+button{
+  position: relative;
+  /* background-color: #fff; */
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  max-width: 50%;
+  /* border-radius: 50px; */
+  letter-spacing: 0.1em;
+  transition: 0.5s;
+}
+button:hover{
+  letter-spacing: 0.25em;
+  /* background-color:#1e9bff ; */
+  box-shadow: 0 0 35px #1e9bff;
+  color: #1e9bff;
+}
+button::before{
+   content: '';
+   position: absolute;
+   inset: 2px;
+   /* background-color: #000; */
+}
+
+a span{
+  position: relative;
+  z-index: 1;
+}
+
+button i{
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+button i::before{
+content: '';
+position: absolute;
+bottom: 42px;
+left: 80%;
+width:10px ;
+height: 4px;
+background: #27282c;
+transform: translateX(-50%) skewX(325deg);
+transition: 0.5s;
+}
+
+button:hover i::before{
+  width: 20px;
+  left: 20%;
+} 
+
+
+button i::after{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 20%;
+  width:10px ;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+  }
+  
+  button:hover i::after{
+    width: 20px;
+    left: 80%;
+  }
+  
