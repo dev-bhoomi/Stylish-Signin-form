@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Stylish-Signin-form/static/css/main.0065afa2.css",
+    "main.js": "/Stylish-Signin-form/static/js/main.85bd968a.js",
+    "static/js/787.a1d683d2.chunk.js": "/Stylish-Signin-form/static/js/787.a1d683d2.chunk.js",
+    "static/media/3.avif": "/Stylish-Signin-form/static/media/3.c4b1ed2cf9ce36c10699.avif",
+    "index.html": "/Stylish-Signin-form/index.html",
+    "main.0065afa2.css.map": "/Stylish-Signin-form/static/css/main.0065afa2.css.map",
+    "main.85bd968a.js.map": "/Stylish-Signin-form/static/js/main.85bd968a.js.map",
+    "787.a1d683d2.chunk.js.map": "/Stylish-Signin-form/static/js/787.a1d683d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0065afa2.css",
+    "static/js/main.85bd968a.js"
+  ]
+}
